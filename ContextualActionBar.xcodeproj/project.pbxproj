@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93536E8A1D2D52D30094EF22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93536E891D2D52D30094EF22 /* AppDelegate.swift */; };
+		93536E8C1D2D52D30094EF22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93536E8B1D2D52D30094EF22 /* ViewController.swift */; };
+		93536E8F1D2D52D30094EF22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93536E8D1D2D52D30094EF22 /* Main.storyboard */; };
+		93536E911D2D52D30094EF22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93536E901D2D52D30094EF22 /* Assets.xcassets */; };
+		93536E941D2D52D30094EF22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93536E921D2D52D30094EF22 /* LaunchScreen.storyboard */; };
+		93536E9F1D2D52D30094EF22 /* ContextualActionBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93536E9E1D2D52D30094EF22 /* ContextualActionBarTests.swift */; };
+		93536EAA1D2D52D30094EF22 /* ContextualActionBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93536EA91D2D52D30094EF22 /* ContextualActionBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93536E9B1D2D52D30094EF22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93536E7E1D2D52D30094EF22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93536E851D2D52D30094EF22;
+			remoteInfo = ContextualActionBar;
+		};
+		93536EA61D2D52D30094EF22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93536E7E1D2D52D30094EF22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93536E851D2D52D30094EF22;
+			remoteInfo = ContextualActionBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93536E861D2D52D30094EF22 /* ContextualActionBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContextualActionBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93536E891D2D52D30094EF22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93536E8B1D2D52D30094EF22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93536E8E1D2D52D30094EF22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93536E901D2D52D30094EF22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93536E931D2D52D30094EF22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93536E951D2D52D30094EF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93536E9A1D2D52D30094EF22 /* ContextualActionBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContextualActionBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93536E9E1D2D52D30094EF22 /* ContextualActionBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextualActionBarTests.swift; sourceTree = "<group>"; };
+		93536EA01D2D52D30094EF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93536EA51D2D52D30094EF22 /* ContextualActionBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContextualActionBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93536EA91D2D52D30094EF22 /* ContextualActionBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextualActionBarUITests.swift; sourceTree = "<group>"; };
+		93536EAB1D2D52D30094EF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93536E831D2D52D30094EF22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93536E971D2D52D30094EF22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93536EA21D2D52D30094EF22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93536E7D1D2D52D30094EF22 = {
+			isa = PBXGroup;
+			children = (
+				93536E881D2D52D30094EF22 /* ContextualActionBar */,
+				93536E9D1D2D52D30094EF22 /* ContextualActionBarTests */,
+				93536EA81D2D52D30094EF22 /* ContextualActionBarUITests */,
+				93536E871D2D52D30094EF22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93536E871D2D52D30094EF22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93536E861D2D52D30094EF22 /* ContextualActionBar.app */,
+				93536E9A1D2D52D30094EF22 /* ContextualActionBarTests.xctest */,
+				93536EA51D2D52D30094EF22 /* ContextualActionBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93536E881D2D52D30094EF22 /* ContextualActionBar */ = {
+			isa = PBXGroup;
+			children = (
+				93536E891D2D52D30094EF22 /* AppDelegate.swift */,
+				93536E8B1D2D52D30094EF22 /* ViewController.swift */,
+				93536E8D1D2D52D30094EF22 /* Main.storyboard */,
+				93536E901D2D52D30094EF22 /* Assets.xcassets */,
+				93536E921D2D52D30094EF22 /* LaunchScreen.storyboard */,
+				93536E951D2D52D30094EF22 /* Info.plist */,
+			);
+			path = ContextualActionBar;
+			sourceTree = "<group>";
+		};
+		93536E9D1D2D52D30094EF22 /* ContextualActionBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				93536E9E1D2D52D30094EF22 /* ContextualActionBarTests.swift */,
+				93536EA01D2D52D30094EF22 /* Info.plist */,
+			);
+			path = ContextualActionBarTests;
+			sourceTree = "<group>";
+		};
+		93536EA81D2D52D30094EF22 /* ContextualActionBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93536EA91D2D52D30094EF22 /* ContextualActionBarUITests.swift */,
+				93536EAB1D2D52D30094EF22 /* Info.plist */,
+			);
+			path = ContextualActionBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93536E851D2D52D30094EF22 /* ContextualActionBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93536EAE1D2D52D30094EF22 /* Build configuration list for PBXNativeTarget "ContextualActionBar" */;
+			buildPhases = (
+				93536E821D2D52D30094EF22 /* Sources */,
+				93536E831D2D52D30094EF22 /* Frameworks */,
+				93536E841D2D52D30094EF22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContextualActionBar;
+			productName = ContextualActionBar;
+			productReference = 93536E861D2D52D30094EF22 /* ContextualActionBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93536E991D2D52D30094EF22 /* ContextualActionBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93536EB11D2D52D30094EF22 /* Build configuration list for PBXNativeTarget "ContextualActionBarTests" */;
+			buildPhases = (
+				93536E961D2D52D30094EF22 /* Sources */,
+				93536E971D2D52D30094EF22 /* Frameworks */,
+				93536E981D2D52D30094EF22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93536E9C1D2D52D30094EF22 /* PBXTargetDependency */,
+			);
+			name = ContextualActionBarTests;
+			productName = ContextualActionBarTests;
+			productReference = 93536E9A1D2D52D30094EF22 /* ContextualActionBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93536EA41D2D52D30094EF22 /* ContextualActionBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93536EB41D2D52D30094EF22 /* Build configuration list for PBXNativeTarget "ContextualActionBarUITests" */;
+			buildPhases = (
+				93536EA11D2D52D30094EF22 /* Sources */,
+				93536EA21D2D52D30094EF22 /* Frameworks */,
+				93536EA31D2D52D30094EF22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93536EA71D2D52D30094EF22 /* PBXTargetDependency */,
+			);
+			name = ContextualActionBarUITests;
+			productName = ContextualActionBarUITests;
+			productReference = 93536EA51D2D52D30094EF22 /* ContextualActionBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93536E7E1D2D52D30094EF22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hullo Technologies Pvt. Ltd.";
+				TargetAttributes = {
+					93536E851D2D52D30094EF22 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					93536E991D2D52D30094EF22 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 93536E851D2D52D30094EF22;
+					};
+					93536EA41D2D52D30094EF22 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 93536E851D2D52D30094EF22;
+					};
+				};
+			};
+			buildConfigurationList = 93536E811D2D52D30094EF22 /* Build configuration list for PBXProject "ContextualActionBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93536E7D1D2D52D30094EF22;
+			productRefGroup = 93536E871D2D52D30094EF22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93536E851D2D52D30094EF22 /* ContextualActionBar */,
+				93536E991D2D52D30094EF22 /* ContextualActionBarTests */,
+				93536EA41D2D52D30094EF22 /* ContextualActionBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93536E841D2D52D30094EF22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93536E941D2D52D30094EF22 /* LaunchScreen.storyboard in Resources */,
+				93536E911D2D52D30094EF22 /* Assets.xcassets in Resources */,
+				93536E8F1D2D52D30094EF22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93536E981D2D52D30094EF22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93536EA31D2D52D30094EF22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93536E821D2D52D30094EF22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93536E8C1D2D52D30094EF22 /* ViewController.swift in Sources */,
+				93536E8A1D2D52D30094EF22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93536E961D2D52D30094EF22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93536E9F1D2D52D30094EF22 /* ContextualActionBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93536EA11D2D52D30094EF22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93536EAA1D2D52D30094EF22 /* ContextualActionBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93536E9C1D2D52D30094EF22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93536E851D2D52D30094EF22 /* ContextualActionBar */;
+			targetProxy = 93536E9B1D2D52D30094EF22 /* PBXContainerItemProxy */;
+		};
+		93536EA71D2D52D30094EF22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93536E851D2D52D30094EF22 /* ContextualActionBar */;
+			targetProxy = 93536EA61D2D52D30094EF22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93536E8D1D2D52D30094EF22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93536E8E1D2D52D30094EF22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93536E921D2D52D30094EF22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93536E931D2D52D30094EF22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93536EAC1D2D52D30094EF22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93536EAD1D2D52D30094EF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93536EAF1D2D52D30094EF22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContextualActionBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tin.pm.ContextualActionBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93536EB01D2D52D30094EF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContextualActionBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tin.pm.ContextualActionBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93536EB21D2D52D30094EF22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContextualActionBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tin.pm.ContextualActionBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContextualActionBar.app/ContextualActionBar";
+			};
+			name = Debug;
+		};
+		93536EB31D2D52D30094EF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContextualActionBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tin.pm.ContextualActionBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContextualActionBar.app/ContextualActionBar";
+			};
+			name = Release;
+		};
+		93536EB51D2D52D30094EF22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ContextualActionBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tin.pm.ContextualActionBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ContextualActionBar;
+			};
+			name = Debug;
+		};
+		93536EB61D2D52D30094EF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ContextualActionBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tin.pm.ContextualActionBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ContextualActionBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93536E811D2D52D30094EF22 /* Build configuration list for PBXProject "ContextualActionBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93536EAC1D2D52D30094EF22 /* Debug */,
+				93536EAD1D2D52D30094EF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93536EAE1D2D52D30094EF22 /* Build configuration list for PBXNativeTarget "ContextualActionBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93536EAF1D2D52D30094EF22 /* Debug */,
+				93536EB01D2D52D30094EF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93536EB11D2D52D30094EF22 /* Build configuration list for PBXNativeTarget "ContextualActionBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93536EB21D2D52D30094EF22 /* Debug */,
+				93536EB31D2D52D30094EF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93536EB41D2D52D30094EF22 /* Build configuration list for PBXNativeTarget "ContextualActionBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93536EB51D2D52D30094EF22 /* Debug */,
+				93536EB61D2D52D30094EF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93536E7E1D2D52D30094EF22 /* Project object */;
+}
