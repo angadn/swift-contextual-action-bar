@@ -14,6 +14,8 @@
 		93536E941D2D52D30094EF22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93536E921D2D52D30094EF22 /* LaunchScreen.storyboard */; };
 		93536E9F1D2D52D30094EF22 /* ContextualActionBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93536E9E1D2D52D30094EF22 /* ContextualActionBarTests.swift */; };
 		93536EAA1D2D52D30094EF22 /* ContextualActionBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93536EA91D2D52D30094EF22 /* ContextualActionBarUITests.swift */; };
+		93536EB81D2D53110094EF22 /* ContextualActionBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93536EB71D2D53110094EF22 /* ContextualActionBarView.swift */; };
+		93536EBA1D2D53500094EF22 /* ContextualActionBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93536EB91D2D53500094EF22 /* ContextualActionBarView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		93536EA51D2D52D30094EF22 /* ContextualActionBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContextualActionBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93536EA91D2D52D30094EF22 /* ContextualActionBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextualActionBarUITests.swift; sourceTree = "<group>"; };
 		93536EAB1D2D52D30094EF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93536EB71D2D53110094EF22 /* ContextualActionBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextualActionBarView.swift; sourceTree = "<group>"; };
+		93536EB91D2D53500094EF22 /* ContextualActionBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContextualActionBarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				93536E901D2D52D30094EF22 /* Assets.xcassets */,
 				93536E921D2D52D30094EF22 /* LaunchScreen.storyboard */,
 				93536E951D2D52D30094EF22 /* Info.plist */,
+				93536EB71D2D53110094EF22 /* ContextualActionBarView.swift */,
+				93536EB91D2D53500094EF22 /* ContextualActionBarView.xib */,
 			);
 			path = ContextualActionBar;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93536E941D2D52D30094EF22 /* LaunchScreen.storyboard in Resources */,
+				93536EBA1D2D53500094EF22 /* ContextualActionBarView.xib in Resources */,
 				93536E911D2D52D30094EF22 /* Assets.xcassets in Resources */,
 				93536E8F1D2D52D30094EF22 /* Main.storyboard in Resources */,
 			);
@@ -258,6 +265,7 @@
 			files = (
 				93536E8C1D2D52D30094EF22 /* ViewController.swift in Sources */,
 				93536E8A1D2D52D30094EF22 /* AppDelegate.swift in Sources */,
+				93536EB81D2D53110094EF22 /* ContextualActionBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
