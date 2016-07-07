@@ -8,7 +8,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContextualActionBarView" customModule="ContextualActionBar" customModuleProvider="target">
             <connections>
-                <outlet property="actionBarView" destination="r26-eX-AS0" id="BeG-J7-ZDs"/>
+                <outlet property="actionBarView" destination="ZLa-VV-ZXz" id="z7Q-MG-3hx"/>
                 <outlet property="contentView" destination="lVg-mG-FhV" id="S1P-ma-Rtx"/>
             </connections>
         </placeholder>
@@ -27,9 +27,17 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RuB-go-BVx" userLabel="Stack View Wrapper for Solid Background">
                             <rect key="frame" x="0.0" y="451" width="600" height="149"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r26-eX-AS0"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZLa-VV-ZXz">
+                                    <rect key="frame" x="90" y="0.0" width="420" height="149"/>
+                                </stackView>
                             </subviews>
                             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="ZLa-VV-ZXz" firstAttribute="height" secondItem="RuB-go-BVx" secondAttribute="height" id="80x-bJ-aPQ"/>
+                                <constraint firstItem="ZLa-VV-ZXz" firstAttribute="centerY" secondItem="RuB-go-BVx" secondAttribute="centerY" id="Iva-fY-cNb"/>
+                                <constraint firstItem="ZLa-VV-ZXz" firstAttribute="width" secondItem="RuB-go-BVx" secondAttribute="width" multiplier="0.7" id="UtE-T2-HZo"/>
+                                <constraint firstItem="ZLa-VV-ZXz" firstAttribute="centerX" secondItem="RuB-go-BVx" secondAttribute="centerX" id="d90-Ae-CzW"/>
+                            </constraints>
                         </view>
                     </subviews>
                     <constraints>

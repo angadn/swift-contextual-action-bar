@@ -14,10 +14,17 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
-    func foo() {
         
+        tile.addToContextualActionBar(UIImageView(
+            image: UIImage(named: "Heart")
+        ))
+        
+        let redHeartImage = UIImage(named: "Heart")?.imageWithRenderingMode(
+            .AlwaysTemplate
+        )
+        let redHeartImageView = UIImageView(image: redHeartImage)
+        redHeartImageView.tintColor = UIColor.redColor()
+        tile.addToContextualActionBar(redHeartImageView)
     }
 
     override func didReceiveMemoryWarning() {
